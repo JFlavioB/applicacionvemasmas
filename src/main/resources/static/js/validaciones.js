@@ -12,11 +12,10 @@ jQuery(document).ready(function ($) {
             document.getElementById("nombre").style.borderColor = '#e51313';
             return false;
         } else if (email === "") {
-            document.getElementById("email").style.borderColor = '#e51313';
+            document.getElementById("correo").style.borderColor = '#e51313';
             return false;
         } else if (rfc === "") {
             document.getElementById("rfc").style.borderColor = '#e51313';
-
             return false;
         } else if (password === "") {
             document.getElementById("password").style.borderColor = '#e51313';
