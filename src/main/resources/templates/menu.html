@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Menu</h1>
+
+
+	<div th:if="${tamano != null}">
+		<div class="col-sm-12">
+			<div class="alert alert-danger ">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close"
+					title="close"></a> <strong>¡Error!</strong>
+				<p th:text="${tamano} + '!'" />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
