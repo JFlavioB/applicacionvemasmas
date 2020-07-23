@@ -28,6 +28,9 @@ jQuery(document).ready(function ($) {
         if (password !== c_password) {
             document.getElementById("password").style.borderColor = '#e51313';
             document.getElementById("c_password").style.borderColor = '#e51313';
+            document.getElementById("nombre").style.borderColor = '#FFFFFF';
+            document.getElementById("correo").style.borderColor = '#FFFFFF';
+            document.getElementById("rfc").style.borderColor = '#FFFFFF';
             alert("las contraseñas no coinciden");
             return false;
         }
@@ -107,6 +110,7 @@ jQuery(document).ready(function ($) {
         if (password !== c_password) {
             document.getElementById("password").style.borderColor = '#e51313';
             document.getElementById("c_password").style.borderColor = '#e51313';
+            document.getElementById("telefono").style.borderColor = '#FFFFFF';
             alert("las contraseñas no coinciden");
             return false;
         }
