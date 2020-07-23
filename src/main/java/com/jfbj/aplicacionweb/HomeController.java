@@ -62,7 +62,6 @@ public class HomeController {
 
 	@PostMapping("/acceder")
 	public String acceder(@ModelAttribute Usuario usuario, Model model) {
-		
 
 		for (int i = 0; i < usuarios.size(); i++) {
 			if (usuario.getCorreo().equals(usuarios.get(i).getCorreo())
